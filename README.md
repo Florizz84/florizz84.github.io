@@ -10,7 +10,9 @@ Each paper is an `<article class="card">` inside the Working Papers or Selected 
 
 Add the profile photo as `images/photo.jpg` in the repository. The page is already set to use that local path.
 
-The CV and some research PDFs also retain their existing Dropbox links. Review those links when updating the CV and academic content.
+Some research PDFs still use their existing Dropbox links. Review those links when updating academic content.
+
+PDFs hosted directly by the site can go in `documents/` (for example, `documents/cvzoutman.pdf`). Use that relative path when linking to them from `index.html`.
 
 ## Preview and publish
 
