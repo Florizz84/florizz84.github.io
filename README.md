@@ -1,18 +1,17 @@
-# Floris Zoutman website — GitHub Pages starter
+# Floris Zoutman academic website
 
-This is a migration of the supplied HTML page. The appearance and existing links are preserved. Only the CSS has been moved from the HTML into `style.css`.
+This is a static GitHub Pages site. Edit academic text and links directly in `index.html`; layout and colors live in `style.css`. No build step or JavaScript is needed.
 
-## Publish
-1. Create a public repository on GitHub named `YOUR-USERNAME.github.io` (substitute your GitHub username), or use any other repository name if you prefer a project site.
-2. Upload `index.html`, `style.css`, and `.nojekyll` to the repository root.
-3. In repository **Settings → Pages → Build and deployment**, select **Deploy from a branch**, then `main` and `/(root)`; save.
-4. The site address is `https://YOUR-USERNAME.github.io/` for a user site, or `https://YOUR-USERNAME.github.io/REPOSITORY/` for a project site.
+## Editing papers and publications
 
-## Editing
-Open `index.html` in GitHub, click Edit (pencil), and update an `<article class="card">` block in Working Papers or Selected Publications. Commit the changes. CSS lives in `style.css` and usually needs no edits.
+Each paper is an `<article class="card">` inside the Working Papers or Selected Publications section of `index.html`. Copy an existing article, then edit its title, description, and links. The layout changes automatically: two columns on desktop and one on mobile.
 
-## Before considering migration finished
-- Test on mobile and desktop (Chrome, Safari, Firefox, Edge).
-- Check every external link. Old Dropbox references remain, including the headshot, CV and some papers.
-- Update outdated paper information and institutional roles.
-- Do not close your old Google Site until the new one has been checked.
+## Profile photograph
+
+Add the profile photo as `images/photo.jpg` in the repository. The page is already set to use that local path.
+
+The CV and some research PDFs also retain their existing Dropbox links. Review those links when updating the CV and academic content.
+
+## Preview and publish
+
+Open `index.html` locally to preview the site. Before publishing, check narrow and wide screens, keyboard focus, section navigation, and the photo in Safari, Firefox, Chrome, and Edge. Commit and push the files only after reviewing the local result.
